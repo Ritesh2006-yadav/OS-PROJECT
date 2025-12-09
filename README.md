@@ -10,3 +10,7 @@ The program simulates the FIFO page replacement algorithm. It loads pages into m
 Least Recently Used Algorithm
 
 The program implements the LRU page replacement algorithm. It tracks how recently each frame was used using a time counter. When a page fault occurs, the page with the oldest last-used time is replaced. Each step prints the current frames, and the total number of page faults is displayed.
+
+Optimal Page Replacement Algorithm
+
+The program implements the Optimal page replacement algorithm. For every page request, it checks future page references to find which loaded page will be used farthest in the future. That page is replaced. After each step, frames are printed, and the total number of page faults is calculated.
