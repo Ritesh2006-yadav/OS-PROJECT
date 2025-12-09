@@ -6,3 +6,7 @@ This project is a simulation tool designed to demonstrate how different Page Rep
 FIFO Page Replacement Algorithm
 
 The program simulates the FIFO page replacement algorithm. It loads pages into memory frames in the order they arrive. When a new page must be inserted, the oldest page is replaced using a circular pointer. After each request, frame status is printed, and total page faults are counted and displayed.
+
+Least Recently Used Algorithm
+
+The program implements the LRU page replacement algorithm. It tracks how recently each frame was used using a time counter. When a page fault occurs, the page with the oldest last-used time is replaced. Each step prints the current frames, and the total number of page faults is displayed.
